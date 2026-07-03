@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>loot.tn — Daily Promo Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #16111f;
+    --bg-panel: #1e1830;
+    --bg-panel-2: #241c39;
+    --gold: #e8a33d;
+    --gold-soft: #f0c27a;
+    --teal: #4fd1c5;
+    --red: #e5605a;
+    --text: #f1ecf9;
+    --text-dim: #a89bc4;
+    --hairline: #362a52;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background: radial-gradient(1200px 600px at 10% -10%, #2a2049 0%, var(--bg) 55%);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    min-height:100vh;
+  }
+  .wrap{max-width:920px;margin:0 auto;padding:40px 20px 80px;}
+
+  header{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;border-bottom:1px solid var(--hairline);padding-bottom:20px;margin-bottom:28px;}
+  .brand{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:30px;letter-spacing:0.5px;color:var(--text);}
+  .brand span{color:var(--gold);}
+  .tagline{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--text-dim);margin-top:4px;}
+  #last-updated{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--teal);text-align:right;}
+  #status-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--teal);margin-right:6px;box-shadow:0 0 8px var(--teal);}
+
+  section{margin-bottom:36px;}
+  h2{font-family:'Rajdhani',sans-serif;font-size:15px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold-soft);margin:0 0 14px 0;}
+
+  .card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;}
+
+  .card{background:var(--bg-panel);border:1px solid var(--hairline);border-radius:10px;padding:16px 18px;}
+  .card h3{margin:0 0 6px;font-size:15px;font-weight:600;color:var(--text);}
+  .card p{margin:0;font-size:13px;color:var(--text-dim);line-height:1.5;}
+  .meta-row{display:flex;gap:10px;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);margin-bottom:8px;text-transform:uppercase;letter-spacing:0.5px;}
+  .meta-row .end{color:var(--red);}
+
+  .rec{display:flex;gap:14px;align-items:flex-start;background:var(--bg-panel);border:1px solid var(--hairline);border-radius:10px;padding:14px 18px;margin-bottom:10px;}
+  .rec .tag{flex-shrink:0;font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:600;letter-spacing:1px;padding:4px 8px;border-radius:5px;text-transform:uppercase;margin-top:2px;}
+  .rec.high .tag{background:rgba(229,96,90,0.15);color:var(--red);border:1px solid rgba(229,96,90,0.4);}
+  .rec.medium .tag{background:rgba(232,163,61,0.15);color:var(--gold);border:1px solid rgba(232,163,61,0.4);}
+  .rec.low .tag{background:rgba(79,209,197,0.15);color:var(--teal);border:1px solid rgba(79,209,197,0.4);}
+  .rec .body h3{margin:0 0 4px;font-size:14px;font-weight:600;}
+  .rec .body p{margin:0;font-size:13px;color:var(--text-dim);}
+
+  .notes{background:var(--bg-panel-2);border-left:3px solid var(--gold);border-radius:6px;padding:16px 18px;font-size:13px;color:var(--text-dim);line-height:1.6;}
+
+  #empty, #loading{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--text-dim);text-align:center;padding:60px 20px;border:1px dashed var(--hairline);border-radius:10px;}
+
+  footer{margin-top:40px;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--text-dim);text-align:center;}
+  footer a{color:var(--teal);}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <div class="brand">loot<span>.tn</span> — promo radar</div>
+      <div class="tagline">// daily scan of steam sales, new releases &amp; gaming news</div>
+    </div>
+    <div id="last-updated"><span id="status-dot"></span>loading…</div>
+  </header>
+
+  <div id="loading">Scanning feed…</div>
+  <div id="content" style="display:none;">
+
+    <section>
+      <h2>Active Sales</h2>
+      <div id="sales" class="card-grid"></div>
+    </section>
+
+    <section>
+      <h2>New Releases To List</h2>
+      <div id="releases" class="card-grid"></div>
+    </section>
+
+    <section>
+      <h2>Today's Recommendations</h2>
+      <div id="recs"></div>
+    </section>
+
+    <section>
+      <h2>Notes</h2>
+      <div id="notes" class="notes"></div>
+    </section>
+
+  </div>
+  <div id="empty" style="display:none;">No report yet. The daily job hasn't run — trigger it manually from the Actions tab, or wait for the next scheduled run.</div>
+
+  <footer>Auto-generated daily via Anthropic API + web search &middot; <a href="https://loot.tn" target="_blank">loot.tn</a></footer>
+</div>
+
+<script>
+async function load() {
+  try {
+    const res = await fetch('data/dashboard.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('no data yet');
+    const data = await res.json();
+    render(data);
+  } catch (e) {
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('empty').style.display = 'block';
+  }
+}
+
+function el(tag, cls, html) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (html !== undefined) e.innerHTML = html;
+  return e;
+}
+
+function render(data) {
+  document.getElementById('loading').style.display = 'none';
+  document.getElementById('content').style.display = 'block';
+
+  const dt = data.generated_at ? new Date(data.generated_at) : null;
+  document.getElementById('last-updated').innerHTML =
+    '<span id="status-dot"></span>' + (dt ? 'updated ' + dt.toLocaleString() : 'unknown');
+
+  const sales = document.getElementById('sales');
+  (data.active_sales || []).forEach(s => {
+    const c = el('div', 'card');
+    c.appendChild(el('div', 'meta-row', `<span>${s.platform || ''}</span><span class="end">ends ${s.ends || '?'}</span>`));
+    c.appendChild(el('h3', null, s.name || ''));
+    c.appendChild(el('p', null, s.note || ''));
+    sales.appendChild(c);
+  });
+  if (!(data.active_sales || []).length) sales.appendChild(el('p', null, 'No active sales found today.'));
+
+  const releases = document.getElementById('releases');
+  (data.new_releases || []).forEach(r => {
+    const c = el('div', 'card');
+    c.appendChild(el('div', 'meta-row', `<span>${r.date || ''}</span><span>${r.platforms || ''}</span>`));
+    c.appendChild(el('h3', null, r.title || ''));
+    c.appendChild(el('p', null, r.why_it_matters || ''));
+    releases.appendChild(c);
+  });
+  if (!(data.new_releases || []).length) releases.appendChild(el('p', null, 'No notable releases found today.'));
+
+  const recs = document.getElementById('recs');
+  (data.recommendations || []).forEach(r => {
+    const pr = (r.priority || 'low').toLowerCase();
+    const c = el('div', 'rec ' + pr);
+    c.appendChild(el('div', 'tag', pr));
+    const body = el('div', 'body');
+    body.appendChild(el('h3', null, r.action || ''));
+    body.appendChild(el('p', null, r.reason || ''));
+    c.appendChild(body);
+    recs.appendChild(c);
+  });
+  if (!(data.recommendations || []).length) recs.appendChild(el('p', null, 'No recommendations today.'));
+
+  document.getElementById('notes').textContent = data.site_notes || '—';
+}
+
+load();
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-07-03T12:00:00.000Z",
+  "active_sales": [
+    {
+      "name": "Steam Summer Sale 2026",
+      "platform": "Steam",
+      "ends": "Jul 9, 2026",
+      "note": "Store-wide seasonal sale. Push a countdown banner on all Steam key/account listings — Arc Raiders, EA FC 26, GTA V Enhanced, F1 25, Gothic 1 Remake."
+    }
+  ],
+  "new_releases": [
+    {
+      "title": "Assassin's Creed Black Flag Resynced",
+      "date": "Jul 9, 2026",
+      "platforms": "PC, PS5, Xbox Series X|S",
+      "why_it_matters": "Major Ubisoft nostalgia remake, $59.99 standard/$69.99 Deluxe. Strong pre-order/launch-day demand expected."
+    },
+    {
+      "title": "Palworld 1.0",
+      "date": "Jul 10, 2026",
+      "platforms": "PC, PS5, Xbox Series, Switch 2",
+      "why_it_matters": "Huge early-access fanbase; 1.0 launch is a natural re-engagement moment."
+    },
+    {
+      "title": "Halo: Campaign Evolved",
+      "date": "Jul 2026",
+      "platforms": "PC, Xbox Series X|S",
+      "why_it_matters": "Full Unreal Engine 5 remake of a flagship franchise; broad appeal."
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "high",
+      "action": "Add a Steam Summer Sale countdown banner on the homepage, ends Jul 9",
+      "reason": "loot.tn already stocks the exact titles on sale platform-wide (Arc Raiders, EA FC 26, GTA V Enhanced) but shows no sale-event branding or urgency."
+    },
+    {
+      "priority": "medium",
+      "action": "List Assassin's Creed Black Flag Resynced and Palworld 1.0 as launch-week featured items",
+      "reason": "Both release within days; capturing launch-week search traffic is time-sensitive."
+    },
+    {
+      "priority": "low",
+      "action": "Keep GTA VI pre-order promos visible in every newsletter through November",
+      "reason": "Long sales runway before the Nov 19 release; steady, low-effort recurring revenue."
+    }
+  ],
+  "site_notes": "This is a seed entry based on manual research on 2026-07-03. Once the GitHub Action runs, this file will be replaced with a fresh daily report."
+}
