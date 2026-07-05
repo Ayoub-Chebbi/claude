@@ -87,6 +87,11 @@
     </section>
 
     <section>
+      <h2>Streamers &amp; Trending</h2>
+      <div id="streamers" class="card-grid"></div>
+    </section>
+
+    <section>
       <h2>Today's Recommendations</h2>
       <div id="recs"></div>
     </section>
@@ -149,6 +154,17 @@ function render(data) {
     releases.appendChild(c);
   });
   if (!(data.new_releases || []).length) releases.appendChild(el('p', null, 'No notable releases found today.'));
+
+  const streamers = document.getElementById('streamers');
+  (data.streamer_trends || []).forEach(s => {
+    const c = el('div', 'card');
+    c.appendChild(el('div', 'meta-row', `<span>${s.platform || ''}</span>`));
+    c.appendChild(el('h3', null, s.streamer || ''));
+    c.appendChild(el('p', null, `<strong>Playing:</strong> ${s.playing || '?'}`));
+    c.appendChild(el('p', null, s.why_it_matters || ''));
+    streamers.appendChild(c);
+  });
+  if (!(data.streamer_trends || []).length) streamers.appendChild(el('p', null, 'No streamer trends found today.'));
 
   const recs = document.getElementById('recs');
   (data.recommendations || []).forEach(r => {

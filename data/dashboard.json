@@ -28,6 +28,20 @@
       "why_it_matters": "Full Unreal Engine 5 remake of a flagship franchise; broad appeal."
     }
   ],
+  "streamer_trends": [
+    {
+      "streamer": "xQc",
+      "platform": "Twitch",
+      "playing": "Arc Raiders",
+      "why_it_matters": "Multi-hour daily streams driving a viewer spike; loot.tn already stocks Arc Raiders Steam keys at a Summer Sale price."
+    },
+    {
+      "streamer": "IShowSpeed",
+      "platform": "YouTube",
+      "playing": "EA FC 26",
+      "why_it_matters": "Regularly trends on YouTube gaming with FC 26 content; strong overlap with loot.tn's EA FC key/account buyers."
+    }
+  ],
   "recommendations": [
     {
       "priority": "high",

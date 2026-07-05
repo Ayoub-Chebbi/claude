@@ -48,8 +48,9 @@ Today's date is ${today}.
 
 Your job, every day:
 1. Search the web for what's currently happening in gaming that matters for a store like loot.tn: active/upcoming Steam or platform sales, major new game releases in the next 1-4 weeks, and any big gaming news (delays, price changes, platform promos).
-2. Compare that against the snapshot of loot.tn's current homepage provided below.
-3. Produce concrete, specific promotion recommendations loot.tn should run TODAY — not generic marketing advice. Reference actual products/games where possible.
+2. Search for what major streamers/content creators (Twitch, YouTube, Kick — e.g. xQc, Kai Cenat, Ninja, IShowSpeed, Shroud, big regional/French/Arab streamers relevant to a Tunisian audience) are currently playing, and what games are trending on those platforms right now.
+3. Compare that against the snapshot of loot.tn's current homepage provided below.
+4. Produce concrete, specific promotion recommendations loot.tn should run TODAY — not generic marketing advice. Reference actual products/games where possible, including tie-ins to what's trending with streamers when relevant (e.g. "streamer X is playing game Y right now, stock/feature its key").
 
 Respond with ONLY a single valid JSON object, no markdown fences, no commentary, matching exactly this schema:
 
@@ -61,13 +62,16 @@ Respond with ONLY a single valid JSON object, no markdown fences, no commentary,
   "new_releases": [
     { "title": string, "date": string, "platforms": string, "why_it_matters": string }
   ],
+  "streamer_trends": [
+    { "streamer": string, "platform": string, "playing": string, "why_it_matters": string }
+  ],
   "recommendations": [
     { "priority": "high" | "medium" | "low", "action": string, "reason": string }
   ],
   "site_notes": string
 }
 
-Keep each string concise (1-2 sentences max). Aim for 2-5 items per array. Only include recommendations that are genuinely actionable for an online game-key/gift-card retailer.`;
+Keep each string concise (1-2 sentences max). Aim for 2-5 items per array. For "streamer_trends", prioritize streamers/games whose current playthrough or trend could plausibly boost demand for a game key, account, or subscription loot.tn sells. Only include recommendations that are genuinely actionable for an online game-key/gift-card retailer.`;
 
   const userPrompt = `Current loot.tn homepage snapshot (raw extracted text, may be messy):\n\n${siteSnapshot}\n\nResearch today's gaming news/sales landscape and produce the JSON report.`;
 

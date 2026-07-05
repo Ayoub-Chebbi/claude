@@ -2,7 +2,7 @@
 
 A fully automated dashboard that, every day:
 1. Fetches loot.tn's homepage for context.
-2. Uses the Anthropic API (Claude + web search) to research current Steam/platform sales, major new game releases, and gaming news.
+2. Uses the Anthropic API (Claude + web search) to research current Steam/platform sales, major new game releases, gaming news, and what big streamers are playing / what's trending on Twitch/YouTube.
 3. Writes a structured report to `data/dashboard.json`.
 4. Publishes it as a static site via GitHub Pages.
 
