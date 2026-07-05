@@ -103,7 +103,14 @@ Keep each string concise (1-2 sentences max). Aim for 2-5 items per array. For "
   const textBlocks = data.content.filter((b) => b.type === "text").map((b) => b.text);
   const rawText = textBlocks.join("\n").trim();
 
-  const cleaned = rawText.replace(/^```json\s*/i, "").replace(/```$/i, "").trim();
+  // The model sometimes prefaces the JSON with a sentence of commentary
+  // before the fenced block, so pull out the fenced content (if any) first,
+  // then narrow to the outermost {...} to drop any stray text around it.
+  const fenceMatch = rawText.match(/```(?:json)?\s*([\s\S]*?)```/i);
+  const candidate = fenceMatch ? fenceMatch[1] : rawText;
+  const start = candidate.indexOf("{");
+  const end = candidate.lastIndexOf("}");
+  const cleaned = start !== -1 && end !== -1 ? candidate.slice(start, end + 1) : candidate.trim();
 
   let parsed;
   try {
