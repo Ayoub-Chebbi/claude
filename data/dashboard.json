@@ -1,101 +1,91 @@
 {
-  "generated_at": "2026-07-05T12:34:44.913Z",
+  "generated_at": "2026-07-05T12:38:46.645Z",
   "active_sales": [
     {
       "name": "Steam Summer Sale 2026",
       "platform": "Steam",
       "ends": "2026-07-09",
-      "note": "The event runs June 25 - July 9, 2026, meaning it ends in just 4 days — last real window to push urgency on discounted Steam keys before the sale disappears."
-    },
-    {
-      "name": "Assassin's Creed Black Flag Resynced pre-order bonus (Blackbeard's Crimson Pack)",
-      "platform": "PS5 / Xbox / PC (Steam, Epic, Ubisoft Connect)",
-      "ends": "2026-07-09",
-      "note": "Pre-ordering before the July 9 launch nets buyers a bonus cosmetic/weapon pack, giving loot.tn a short pre-order upsell window."
+      "note": "This year's event runs June 25 - July 9, 2026 at 10am Pacific, meaning loot.tn has only ~4 days left to ride the wishlist-driven traffic wave with matching Steam key discounts."
     }
   ],
   "new_releases": [
     {
-      "title": "Assassin's Creed Black Flag Resynced",
-      "date": "2026-07-09",
-      "platforms": "PS5, Xbox Series X/S, PC (Steam/Epic/Ubisoft Connect)",
-      "why_it_matters": "A remake of the beloved 2013 pirate classic launching in just 4 days; console launch time is midnight local, PC/GeForce Now launch is 15:00 BST/16:00 CEST on July 9, making it a strong same-day key-sale opportunity."
+      "title": "Grand Theft Auto VI (pre-orders)",
+      "date": "Pre-orders live now; game releases Nov 19, 2026",
+      "platforms": "PS5, Xbox Series X/S",
+      "why_it_matters": "Pre-orders for Grand Theft Auto VI officially began June 25, 2026, launching Nov 19, 2026 for PS5 and Xbox Series X|S for $79.99 (Ultimate $99.99), with a Vintage Vice City Pack bonus for early pre-orders."
     },
     {
       "title": "Halo: Campaign Evolved",
-      "date": "Late July 2026",
-      "platforms": "Xbox Series X/S, PC",
-      "why_it_matters": "One of only two 'mega remakes' headlining July, alongside Black Flag Resynced, per PC Gamer's July release roundup — a good Xbox/PC key to line up ahead of launch."
+      "date": "July 2026",
+      "platforms": "Xbox, PC",
+      "why_it_matters": "A campaign-focused remake of the original Halo, rebuilt from the ground up with HD graphics and new missions plus 4-player co-op, giving loot.tn a fresh Xbox/PC key to stock."
     },
     {
-      "title": "Grand Theft Auto VI",
-      "date": "2026-11-19",
-      "platforms": "PlayStation 5, Xbox Series X/S (no PC date yet)",
-      "why_it_matters": "Take-Two has locked the November 19, 2026 date into official FY2027 guidance of $8-8.2 billion in net bookings, and confirmed the standard edition price at $79.99 — hype and pre-order search traffic will keep climbing through summer even though launch is months away."
+      "title": "Assassin's Creed Black Flag: Resynced",
+      "date": "July 2026",
+      "platforms": "PC, PS5, Xbox",
+      "why_it_matters": "One of the two big remakes highlighted for July, alongside Halo: Campaign Evolved, giving loot.tn a marquee AAA release to feature in July since the month is otherwise light on blockbusters."
+    },
+    {
+      "title": "EA Sports College Football 27",
+      "date": "July 2026",
+      "platforms": "PC, consoles",
+      "why_it_matters": "New annual EA Sports entry launching in July with customizable stadiums, dynamic weather, and a new Coach Mode — a natural EA App/Steam key upsell alongside loot.tn's existing EA FC 26 listings."
     }
   ],
   "streamer_trends": [
     {
-      "streamer": "Twitch overall (multiple channels)",
-      "platform": "Twitch",
-      "playing": "Grand Theft Auto V",
-      "why_it_matters": "GTA V is currently the #3 most-watched game on Twitch with 70,236 average viewers, riding a wave of renewed interest ahead of GTA 6 — loot.tn's 'GTA V Enhanced (PC) - Rockstar Key' is a direct, in-stock tie-in."
-    },
-    {
-      "streamer": "Twitch overall (multiple channels)",
-      "platform": "Twitch",
-      "playing": "MECCHA CHAMELEON",
-      "why_it_matters": "MECCHA CHAMELEON is currently the #7 most-watched category on Twitch with over 50,000 average viewers, and loot.tn already stocks its Steam Key — this should be front-and-center, not buried in 'derniers ajouts'."
-    },
-    {
-      "streamer": "Squeezie",
-      "platform": "Twitch/YouTube (huge Francophone reach relevant to Tunisian audience)",
-      "playing": "ARC Raiders",
-      "why_it_matters": "Squeezie's stream history includes ARC Raiders, aligning directly with loot.tn's active 'Arc Raiders (PC) - Steam Key + Compte' promo already discounted on the homepage."
-    },
-    {
       "streamer": "Kai Cenat",
       "platform": "Twitch",
-      "playing": "Unknown — comeback stream teased",
-      "why_it_matters": "After an extended hiatus, Kai Cenat (one of Twitch's most-followed streamers) has teased a stream for July 6, 2026 — whatever game he plays (historically Fortnite, GTA, COD) could spike demand overnight, so loot.tn should monitor and react fast with social posts."
+      "playing": "GTA / Just Chatting",
+      "why_it_matters": "Kai Cenat is the most-followed Twitch channel with more than 20 million followers, streams himself playing Grand Theft Auto, and ended an eight-month hiatus in June 2026, right as GTA VI pre-order mania hits — strong tailwind for GTA V Enhanced and GTA VI listings."
+    },
+    {
+      "streamer": "Ghaith Ouerdiane 'Bacha'",
+      "platform": "Kick",
+      "playing": "FIFA / EA Sports FC",
+      "why_it_matters": "A Tunisian streamer active on Kick known for his FIFA/EA Sports FC sessions and football commentary work, making him a directly relevant local tie-in for loot.tn's EA SPORTS FC 26 keys and points cards."
+    },
+    {
+      "streamer": "TheBurntPeanut / Ninja",
+      "platform": "Twitch",
+      "playing": "ARC Raiders",
+      "why_it_matters": "ARC Raiders lost roughly 80% of its Steam player base in 2026 amid a severe cheating crisis, with top streamers publicly threatening to quit — a warning sign that loot.tn's prominent Arc Raiders homepage promo may be riding a cooling trend."
+    },
+    {
+      "streamer": "Top Arabic-language Twitch streamers (e.g. absi)",
+      "platform": "Twitch",
+      "playing": "Variety / Just Chatting",
+      "why_it_matters": "Arabic-language streaming remains a high-watch-time category on Twitch, underscoring that region-specific promos (Arabic-friendly product pages, MENA payment messaging) can capture engaged Arabic-speaking gaming audiences relevant to Tunisia."
     }
   ],
   "recommendations": [
     {
       "priority": "high",
-      "action": "Add a homepage countdown banner: 'Steam Summer Sale se termine le 9 juillet!' pushing already-discounted Steam keys (Arc Raiders, Gothic 1 Remake, F1 25, EA SPORTS FC 26) with urgency copy.",
-      "reason": "The Steam Summer Sale ends July 9, 2026, giving only a few days left — urgency messaging on existing discounted SKUs can lift conversion before the window closes."
+      "action": "Run a 'Dernières heures du Steam Summer Sale' countdown banner today through July 9, spotlighting discounted Steam keys already in stock (Gothic 1 Remake, F1 25, GTA V Enhanced, Meccha Chameleon).",
+      "reason": "The Steam Summer Sale 2026 runs June 25 – July 9, 2026, so loot.tn has a hard 4-day window left to capture shoppers actively comparison-shopping Steam discounts before the event ends."
     },
     {
       "priority": "high",
-      "action": "List Assassin's Creed Black Flag Resynced (PS5/Xbox/Steam/Ubisoft key) for pre-order/launch-day sale now, timed to the July 9 midnight console / 15:00 BST PC launch.",
-      "reason": "The game launches July 9, 2026 on PS5, Xbox and PC, and is one of the two headline 'mega remakes' of the month — being live before launch captures pre-launch search traffic."
-    },
-    {
-      "priority": "high",
-      "action": "Update the GTA VI PRE-ORDER listing to clearly state the confirmed release date (November 19, 2026) and reference the confirmed $79.99 standard price, adding a countdown widget.",
-      "reason": "Take-Two has confirmed November 19, 2026 as the firm date with pricing 'in line with current AAA console pricing,' and clarity here builds trust and reduces pre-order confusion/refund requests months ahead of launch."
+      "action": "Update GTA VI pre-order product pages to reference the now-official Rockstar pricing ($79.99 Standard / $99.99 Ultimate) and the Vintage Vice City Pack pre-order bonus, framing loot.tn's TND pricing as locked-in value before November.",
+      "reason": "Pre-orders for Grand Theft Auto VI officially opened June 25, 2026 at $79.99 (Ultimate $99.99) with the Vintage Vice City Pack bonus, and this is currently the single biggest driver of gaming-related search and social traffic."
     },
     {
       "priority": "medium",
-      "action": "Feature 'MECCHA CHAMELEON Steam Key' more prominently (hero carousel, not just 'derniers ajouts'), with messaging like 'Le jeu que tout Twitch regarde en ce moment.'",
-      "reason": "MECCHA CHAMELEON is currently the #7 most-watched category on Twitch, and loot.tn already sells its key but under-features it on the homepage."
+      "action": "Add or fast-track listing pages for Halo: Campaign Evolved and Assassin's Creed Black Flag: Resynced ahead of their July 2026 launches, and cross-promote GTA V Enhanced as a 'get hyped for GTA VI' bundle.",
+      "reason": "July's own release calendar is otherwise light, with Halo: Campaign Evolved and Assassin's Creed Black Flag: Resynced singled out as the two big remakes headlining the month, giving loot.tn first-mover positioning on these keys."
     },
     {
       "priority": "medium",
-      "action": "Cross-promote 'GTA V Enhanced (PC) - Rockstar Key' with a 'Get hyped for GTA 6 — replay GTA V now' campaign, bundling with the GTA VI pre-order tile.",
-      "reason": "GTA V is currently the #3 most-watched game on Twitch (70K+ avg viewers) driven by GTA 6 anticipation, and loot.tn already stocks the GTA V Enhanced key at a discount."
-    },
-    {
-      "priority": "medium",
-      "action": "Prep and list a Halo: Campaign Evolved Xbox/PC key page ahead of its late-July launch.",
-      "reason": "Halo: Campaign Evolved is one of July's two flagship remakes and will draw significant Xbox/PC key demand around its late-July release."
+      "action": "De-prioritize Arc Raiders from the top 'Offres du moment' carousel slot and reallocate that homepage real estate to EA FC 26 / GTA VI, keeping Arc Raiders available but less prominent.",
+      "reason": "Arc Raiders lost about 80% of its Steam concurrent player base in 2026 due to a severe cheating crisis, with top streamers like TheBurntPeanut and Ninja publicly voicing frustration, signaling cooling organic demand."
     },
     {
       "priority": "low",
-      "action": "Set up a social-listening alert for Kai Cenat's rumored July 6 comeback stream and be ready to fast-post a matching key/account promo if he plays a title in loot.tn's catalog (Fortnite, GTA, COD, Valorant).",
-      "reason": "Kai Cenat teased a stream for July 6, 2026 after a long hiatus, and his streams historically cause massive spikes in whatever game he plays."
+      "action": "Launch a small influencer/promo-code collaboration with Tunisian Kick streamer Ghaith Ouerdiane ('Bacha'), tied to EA SPORTS FC 26 key + account bundle sales.",
+      "reason": "Bacha is a Tunisian streamer active on Kick known specifically for his FIFA/EA Sports FC content, making him a highly relevant, low-cost local amplifier for loot.tn's existing EA FC 26 inventory."
     }
   ],
-  "site_notes": "Homepage still lists 'GTA VI PRE-ORDER' without a release date — since Rockstar's confirmed launch is November 19, 2026 (PS5/Xbox only, no PC), add explicit date/platform clarity plus a countdown to build trust and reduce confusion. The Steam Summer Sale ends July 9, so existing discount tiles (Arc Raiders, Gothic 1 Remake, F1 25, EA FC 26) should get urgency badges. MECCHA CHAMELEON and GTA V Enhanced are both riding real Twitch trend spikes and are already in loot.tn's catalog but are under-promoted relative to their trending status — bumping them into the top promo carousel is low-effort, high-impact. Assassin's Creed Black Flag Resynced and Halo: Campaign Evolved should be added/expanded as new SKUs to catch July's two biggest remake launches."
+  "site_notes": "Homepage already smartly surfaces GTA VI PS5/Xbox pre-orders and EA FC 26 clé+compte bundles, which aligns with today's biggest hype driver (GTA VI's officially confirmed $79.99/$99.99 pricing) — just needs copy refreshed to cite the confirmed price/bonus pack. The 'Offres du moment' row leans heavily on Arc Raiders, which is showing real signs of audience fatigue (an 80% player drop tied to a cheating crisis), so that slot should be refreshed with the incoming July remakes (Halo: Campaign Evolved, AC Black Flag: Resynced) or EA Sports College Football 27 to keep the promo section timely; also worth adding a visible Steam Summer Sale countdown since only ~4 days remain."
 }
