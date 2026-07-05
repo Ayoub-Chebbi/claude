@@ -84,7 +84,7 @@ Keep each string concise (1-2 sentences max). Aim for 2-5 items per array. For "
     },
     body: JSON.stringify({
       model: MODEL,
-      max_tokens: 4096,
+      max_tokens: 8192,
       system: systemPrompt,
       messages: [{ role: "user", content: userPrompt }],
       tools: [{ type: "web_search_20250305", name: "web_search" }],
@@ -97,6 +97,10 @@ Keep each string concise (1-2 sentences max). Aim for 2-5 items per array. For "
   }
 
   const data = await response.json();
+
+  if (data.stop_reason === "max_tokens") {
+    throw new Error("Response got cut off (hit max_tokens) before the JSON report finished — raise max_tokens.");
+  }
 
   // Concatenate all text blocks (search results produce extra tool-use
   // blocks interleaved with text — we only want the final text output).
