@@ -1,119 +1,118 @@
 {
-  "generated_at": "2026-07-08T09:29:52.967Z",
+  "generated_at": "2026-07-09T10:34:00.873Z",
   "active_sales": [
     {
       "name": "Steam Summer Sale 2026",
       "platform": "Steam",
-      "ends": "2026-07-09",
-      "note": "Final day tomorrow — site-wide Steam key discounts end at 10am Pacific July 9; last-chance push needed today on all Steam-key SKUs (EA FC 26, Arc Raiders, Gothic 1 Remake, GTA V Enhanced)."
+      "ends": "2026-07-09 (today, 10am PT)",
+      "note": "This year's event runs June 25 - July 9, 2026 at 10am Pacific — today is the FINAL day, ideal for a last-chance urgency push on all PC/Steam keys."
     },
     {
-      "name": "PlayStation Store July Savings Sale",
-      "platform": "PS4/PS5",
-      "ends": "2026-07-15",
-      "note": "Thousands of PS4/PS5 titles discounted; good window to push PSN gift card top-ups since Tunisian buyers need PSN wallet credit to redeem sale prices."
-    },
-    {
-      "name": "PS Plus Essential July lineup",
-      "platform": "PS5/PS4",
-      "ends": "2026-08-04",
-      "note": "Call of Duty: Modern Warfare 3, For the King 2 and CrossCode are free for subscribers this month — an angle to upsell PS Plus subscription cards."
+      "name": "Loot.tn Top Promos (in-house)",
+      "platform": "loot.tn",
+      "ends": "ongoing",
+      "note": "Google/Apple gift cards, Arc Raiders, and EA SPORTS FC 26 already discounted on-site 11-23%; can be amplified with countdown banners."
     }
   ],
   "new_releases": [
     {
-      "title": "Grand Theft Auto VI",
-      "date": "2026-11-19",
-      "platforms": "PS5, Xbox Series X/S",
-      "why_it_matters": "Take-Two locked in the November 19, 2026 date and standard edition price at $79.99, with pre-orders open since June 25; loot.tn's GTA VI pre-order tiles need pricing/date copy updated to match the now-confirmed details."
+      "title": "EA SPORTS College Football 27",
+      "date": "2026-07-09 (today)",
+      "platforms": "PS5, Xbox Series X/S, PC (EA App, Steam, Epic)",
+      "why_it_matters": "EA SPORTS College Football 27 launches worldwide on July 9, 2026 and is the first entry in the series available on PC via EA App/Steam. Loot.tn's EA App key business (already selling F1 25) can pivot to feature this launch-day title."
     },
     {
-      "title": "EA Sports College Football 27",
+      "title": "Assassin's Creed Black Flag Resynced",
       "date": "2026-07-09",
-      "platforms": "PS5, Xbox Series X/S",
-      "why_it_matters": "Annual EA sports franchise launch with new Coach Mode and customizable stadiums; good day-one key/account inventory opportunity alongside the existing EA FC 26 listings."
+      "platforms": "PS5, Xbox, PC",
+      "why_it_matters": "A major Ubisoft remake releasing this month, one of the few big AAA drops in an otherwise quiet July — good candidate for a featured key listing."
     },
     {
       "title": "Palworld 1.0",
       "date": "2026-07-10",
-      "platforms": "PC (Steam), Xbox",
-      "why_it_matters": "Full 1.0 launch of one of the most anticipated Steam titles of the month, expected to spike concurrent players and Twitch attention right as the Steam Summer Sale ends."
+      "platforms": "PC (Steam), consoles",
+      "why_it_matters": "Full 1.0 launch of a title with a massive existing fanbase; high search intent around launch week."
     },
     {
-      "title": "Assassin's Creed Black Flag: Resynced",
-      "date": "July 2026",
-      "platforms": "PC, PS5, Xbox",
-      "why_it_matters": "Major remake positioned as one of the few big July releases before the market clears out ahead of GTA VI in Q4; worth stocking as a Steam/Ubisoft key."
+      "title": "Halo: Campaign Evolved",
+      "date": "2026-07-28 (early access 2026-07-23)",
+      "platforms": "Xbox Series X/S, PC (Steam/Windows), PS5",
+      "why_it_matters": "Halo: Campaign Evolved is set to be released for PlayStation 5, Windows and Xbox Series X/S on July 28, 2026, marking Halo's first-ever appearance on PlayStation — strong pre-order window opening now for Xbox/Steam/PSN key sales."
     }
   ],
   "streamer_trends": [
     {
-      "streamer": "Pokimane, shroud, iiTzTimmy, Giantwaffle (multi-streamer trend)",
-      "platform": "Twitch/TikTok",
+      "streamer": "HandOfBlood & multiple top channels",
+      "platform": "Twitch",
       "playing": "MECCHA CHAMELEON",
-      "why_it_matters": "MECCHA CHAMELEON is now a top-10 most-watched Twitch category with 27.6% week-over-week growth and over 7 million copies sold; loot.tn already lists this Steam key and should feature it front-and-center."
+      "why_it_matters": "MECCHA CHAMELEON is the #9 most-watched Twitch category with hours watched up 27.4% week-over-week and has held the #1 Steam global bestseller spot for two straight weeks — loot.tn already stocks this Steam key and should feature it far more prominently."
     },
     {
-      "streamer": "Various VALORANT streamers",
+      "streamer": "HandOfBlood",
       "platform": "Twitch",
-      "playing": "VALORANT",
-      "why_it_matters": "VALORANT viewership jumped 53% week-over-week, making it the #3 most-watched game on Twitch; loot.tn's Valorant VP cards should be promoted alongside this surge."
-    },
-    {
-      "streamer": "Ninja and other extraction-shooter streamers",
-      "platform": "Twitch",
-      "playing": "Arc Raiders",
-      "why_it_matters": "Concurrent players have collapsed from a 466K peak to under 40K amid cheating complaints, with Ninja calling the game \"unplayable\"; loot.tn's prominently-featured Arc Raiders key/account listing may need repositioning as a clearance deal rather than a hero promo."
-    },
-    {
-      "streamer": "GTA V community (broad)",
-      "platform": "Twitch",
-      "playing": "Grand Theft Auto V",
-      "why_it_matters": "GTA V remains the #4 most-watched game on Twitch even 13 years post-launch, riding GTA VI hype; a strong tie-in opportunity for loot.tn's existing GTA V Enhanced Rockstar key."
+      "playing": "Gothic 1 Remake",
+      "why_it_matters": "Gothic 1 Remake is trending on Twitch with HandOfBlood as its top contributing channel (7% share); loot.tn already lists this as a discounted Steam key, so it can be cross-promoted alongside Meccha Chameleon."
     },
     {
       "streamer": "Kai Cenat",
-      "platform": "Twitch/YouTube",
-      "playing": "Streamer University 2 reveal broadcast",
-      "why_it_matters": "Cenat returned from a 9-month hiatus on July 6 with a simulcast reaching huge audiences, signaling renewed high-volume streaming activity that could lift general gaming content demand and gift-card top-up needs among younger audiences."
+      "platform": "Twitch & YouTube (simulcast)",
+      "playing": "Comeback stream / Streamer University 2 (games TBD)",
+      "why_it_matters": "Kai Cenat returned to livestreaming July 6 after a months-long hiatus, now simulcasting on both Twitch and YouTube — his massive audience typically drives spikes in whatever game/account he plays (historically GTA Online, Fortnite, CoD), worth monitoring for a same-day key promo."
+    },
+    {
+      "streamer": "Gotaga & Squeezie",
+      "platform": "YouTube/Twitch (French)",
+      "playing": "Valorant (duo queue)",
+      "why_it_matters": "Top Francophone streamers relevant to Tunisia's audience are actively duo-queuing Valorant, aligning directly with loot.tn's Valorant VP top-up product line."
+    },
+    {
+      "streamer": "Various Twitch/GTA RP creators",
+      "platform": "Twitch",
+      "playing": "GTA V / GTA Online",
+      "why_it_matters": "GTA V remains one of the most-watched games on Twitch largely thanks to its roleplay scene, and with GTA 6 launching in November 2026, franchise interest is only climbing — supports continued promotion of loot.tn's GTA V Enhanced key and the GTA VI pre-order listings."
     }
   ],
   "recommendations": [
     {
       "priority": "high",
-      "action": "Run a 'Last Day of Steam Summer Sale' banner/email today highlighting EA FC 26, Gothic 1 Remake, GTA V Enhanced, and Arc Raiders Steam keys with urgency messaging.",
-      "reason": "The Steam Summer Sale 2026 ends July 9, giving only today/tomorrow to capture buyers comparison-shopping cheaper keys before the sale closes."
+      "action": "Launch a 'Dernier Jour' (Last Day) flash banner today for all Steam PC keys, since the Steam Summer Sale officially ends July 9.",
+      "reason": "This year's Steam Summer Sale runs June 25 - July 9, 2026, creating a hard deadline that can drive same-day urgency purchases on loot.tn's Steam catalog (Gothic 1 Remake, Arc Raiders, GTA V Enhanced, etc.)."
     },
     {
       "priority": "high",
-      "action": "Feature MECCHA CHAMELEON prominently on the homepage hero/top-promos carousel instead of the current 'Nouveautés' quick-preview slot.",
-      "reason": "It is a top-10 Twitch category with 27.6% week-over-week growth and viral TikTok clips, making it a high-conversion impulse-buy title loot.tn already stocks but under-promotes."
+      "action": "Move MECCHA CHAMELEON from the 'Derniers ajouts' grid into the hero/top-promo carousel with messaging like 'Le jeu le plus regardé sur Twitch en ce moment'.",
+      "reason": "The game has held the #1 Steam global bestseller spot for two straight weeks and ranks among Twitch's top watched categories, so demand is currently peaking and loot.tn already stocks the key."
     },
     {
       "priority": "high",
-      "action": "Update GTA VI pre-order tiles to reflect the officially confirmed November 19, 2026 release date and $79.99 standard-edition pricing referenced by Rockstar/Take-Two.",
-      "reason": "Take-Two's earnings guidance and marketing campaign explicitly lock in this date/price, and loot.tn's current listing risks looking outdated or mismatched if customers cross-check pricing."
+      "action": "Build a GTA VI pre-order landing page/banner reinforcing the confirmed November 19, 2026 release date and Rockstar's summer marketing campaign kickoff, with an installment/reservation option.",
+      "reason": "Rockstar and Take-Two have publicly reconfirmed GTA VI's release date is November 19, 2026, and won't be delayed again, with the promotional campaign for GTA 6 beginning in summer 2026 — hype and search volume are about to surge."
     },
     {
       "priority": "medium",
-      "action": "Bundle a Valorant VP promo (e.g., discount on 2000 VP pack) with a banner referencing VALORANT's current Twitch surge.",
-      "reason": "VALORANT viewership rose 53% week-over-week, making it the third most-watched game on Twitch right now, indicating fresh player/spender interest."
+      "action": "Create a 'Meccha Chameleon + Gothic 1 Remake' bundle discount, cross-selling two currently-trending Steam keys already in stock.",
+      "reason": "Both titles are simultaneously trending on Twitch with overlapping European streamer audiences, making a bundle a low-effort way to capture demand from both trends at once."
     },
     {
       "priority": "medium",
-      "action": "Reposition Arc Raiders from a hero 'quick preview' slot to a discounted clearance tile with clear refund-guarantee messaging.",
-      "reason": "Concurrent players have dropped over 90% from peak amid cheating backlash and streamer criticism, so continuing to headline it at full visibility risks buyer disappointment."
+      "action": "Add an EA App key listing/promo for EA SPORTS College Football 27 alongside the existing F1 25 EA App key.",
+      "reason": "EA SPORTS College Football 27 launches worldwide on July 9, 2026 and is the first entry in the series available on PC via the EA App — a same-day launch tie-in extends loot.tn's existing EA App key business."
     },
     {
       "priority": "medium",
-      "action": "Add PSN gift card cross-sell messaging tied to the PlayStation Store's July Savings Sale (live through July 15).",
-      "reason": "Thousands of PS4/PS5 titles are discounted right now, and Tunisian buyers need PSN wallet credit via gift cards to redeem those deals."
+      "action": "Run a targeted Valorant VP top-up promo (French-language creative) timed to Gotaga/Squeezie's Valorant duo content.",
+      "reason": "Two of the biggest Francophone streamers relevant to Tunisia's audience are actively playing Valorant together, directly matching loot.tn's Valorant VP Europe product line."
     },
     {
       "priority": "low",
-      "action": "List EA Sports College Football 27 (July 9 launch) and Palworld 1.0 (July 10 launch) as new arrivals once keys are sourced.",
-      "reason": "Both are notable July releases with dedicated fanbases that could generate day-one search traffic even though the Tunisian audience for college football is niche."
+      "action": "Monitor Kai Cenat's comeback stream content over the next 1-2 weeks and prepare a rapid-response promo for whatever game/account he plays most (e.g., GTA Online, Fortnite, CoD).",
+      "reason": "Kai Cenat just returned to livestreaming July 6 after a long hiatus with a first-ever Twitch+YouTube simulcast, and his streams historically cause short-term spikes in whatever title he plays."
+    },
+    {
+      "priority": "low",
+      "action": "Add a Halo: Campaign Evolved pre-order listing (Xbox/Steam/PS5 key) ahead of its July 28 launch.",
+      "reason": "Halo: Campaign Evolved is set to be released for PlayStation 5, Windows and Xbox Series X/S on July 28, 2026, marking the franchise's console debut on PlayStation and generating strong pre-order interest across all three platforms loot.tn already serves."
     }
   ],
-  "site_notes": "Homepage still shows GTA VI pre-order pricing (330,000 DT PS5 / 300,000 DT Xbox) without reflecting the now-official November 19, 2026 date and $79.99 standard price — this should be reconciled to avoid customer confusion. Arc Raiders is featured in both 'Derniers ajouts' and 'Top Promos' despite a steep, ongoing player-count decline driven by cheating complaints; consider softening its prominence. MECCHA CHAMELEON is already in the catalog but buried in a generic quick-preview card despite being one of the fastest-growing titles on Twitch/TikTok right now — it deserves banner-level placement today."
+  "site_notes": "Homepage already smartly stocks several currently-trending titles (Meccha Chameleon, Gothic 1 Remake, Arc Raiders, EA FC 26, GTA VI pre-orders) but they're buried in generic 'Derniers ajouts'/'Top Promos' grids rather than surfaced as time-sensitive trending picks; adding urgency badges ('Tendance Twitch', 'Dernier jour promo Steam', 'Sortie aujourd'hui') to the hero carousel would better convert on today's news cycle."
 }
