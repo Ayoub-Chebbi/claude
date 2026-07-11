@@ -1,115 +1,113 @@
 {
-  "generated_at": "2026-07-10T10:27:27.236Z",
+  "generated_at": "2026-07-11T08:51:57.137Z",
   "active_sales": [
     {
-      "name": "PlayStation Store July Savings",
-      "platform": "PSN",
-      "ends": "~July 15, 2026",
-      "note": "<cite index=\"46-3,46-4\">The PlayStation Store has a substantial sale right now, which features the lowest price ever discounts for over 250 PS5 games, including many 2026 releases, available only until July 15.</cite>"
-    },
-    {
-      "name": "EA SPORTS FC 26 Festival of Football (Pelé ICON event)",
-      "platform": "EA FC 26 / FUT",
-      "ends": "July 24, 2026",
-      "note": "<cite index=\"68-11\">Players can log in and play FC 26 between 5 June and 24 July to earn a 93 OVR Festival of Football ICON Pelé and three 'Choose Your Journey' Evolutions.</cite> A new Phenoms Team 1 also just dropped July 10."
-    },
-    {
-      "name": "Steam Social Deduction Fest",
-      "platform": "Steam",
-      "ends": "starts July 13, 2026",
-      "note": "<cite index=\"9-1\">The next Steam sale is the Steam Social Deduction Fest, which starts on 13th July 2026</cite>, right after the Summer Sale closed July 9."
+      "name": "PlayStation Store 'July Savings' Sale",
+      "platform": "PlayStation",
+      "ends": "2026-07-15/16",
+      "note": "Sony's July Savings promo is live with nearly 5,000 titles discounted; the promo period runs from early July through July 15-16."
     },
     {
       "name": "Steam Summer Sale 2026 (just ended)",
       "platform": "Steam",
-      "ends": "ended July 9, 2026",
-      "note": "<cite index=\"5-1\">Steam Summer Sale 2026 ran from June 25 to July 9, 2026, with over 4,000 titles discounted around 45% on average</cite>, so residual wishlist traffic may still be converting today."
+      "ends": "2026-07-09 (closed)",
+      "note": "The Steam Summer Sale ran June 25-July 9, 2026; expect a post-sale wishlist/backlog buying wave and Steam wallet top-up demand even though the sale itself has closed."
+    },
+    {
+      "name": "Playasia Summer Sale",
+      "platform": "Multi-platform (physical & digital resellers)",
+      "ends": "ongoing mid-July",
+      "note": "Regional resellers like Play-Asia are running parallel summer promos alongside PSN gift card bundling offers."
     }
   ],
   "new_releases": [
     {
-      "title": "Halo: Campaign Evolved",
-      "date": "Early access July 23 / launch July 28, 2026",
-      "platforms": "PC, Xbox",
-      "why_it_matters": "<cite index=\"7-15\">Halo: Campaign Evolved arrives on PC on July 28, with early access opening July 23 for those who preorder.</cite> Prime opportunity to sell Xbox Game Pass Ultimate and PC keys ahead of launch."
+      "title": "Assassin's Creed: Black Flag Resynced",
+      "date": "2026-07-09",
+      "platforms": "PC, PS5, Xbox Series X/S",
+      "why_it_matters": "One of July's biggest launches, a full remake of the fan-favorite Black Flag with a Deluxe/Collector's tier structure, driving strong demand for keys right now."
     },
     {
       "title": "EA Sports College Football 27",
-      "date": "July 9, 2026",
-      "platforms": "PS5, Xbox",
-      "why_it_matters": "<cite index=\"69-7\">EA SPORTS College Football 27 launched worldwide on July 9, bringing the new era of college football to life.</cite> Fresh sports title demand for game keys/points."
-    },
-    {
-      "title": "Assassin's Creed Black Flag: Resynced",
-      "date": "July 9, 2026",
-      "platforms": "PS5, Xbox, PC",
-      "why_it_matters": "<cite index=\"16-6\">Assassin's Creed Black Flag Resynced released July 9, 2026 on PS5, Xbox, PC</cite>, one of the month's headline remakes worth stocking as a key."
+      "date": "2026-07-09",
+      "platforms": "PS5, Xbox Series X/S",
+      "why_it_matters": "Annual sports title launch, historically a strong seller among Tunisian buyers looking for cheaper regional keys/accounts."
     },
     {
       "title": "Palworld 1.0",
-      "date": "July 10, 2026",
-      "platforms": "PC, Xbox, Game Pass",
-      "why_it_matters": "<cite index=\"18-1,18-2\">Palworld is scheduled for release on Jul 10, 2026 and is the most anticipated game this month</cite>, and it's also joining Xbox Game Pass, driving subscription demand."
+      "date": "2026-07-10",
+      "platforms": "PC, consoles",
+      "why_it_matters": "Full 1.0 launch of a game that was a massive Steam breakout is generating fresh hype and search volume for keys."
     },
     {
-      "title": "GTA 6 (pre-orders live now)",
-      "date": "Launches Nov 19, 2026; pre-orders since June 25",
-      "platforms": "PS5, Xbox",
-      "why_it_matters": "<cite index=\"41-6,41-13\">GTA 6 launches November 19, 2026 for PlayStation 5 and Xbox Series X|S with pre-orders live worldwide, and purchasers before Nov 20 get the Vintage Vice City Pack plus one month of GTA+ membership.</cite> Huge ongoing hype driving wallet/pre-order demand months in advance."
+      "title": "Halo: Campaign Evolved",
+      "date": "2026-07-27",
+      "platforms": "Xbox Series X/S, PC, PS5",
+      "why_it_matters": "This is the first-ever Halo release on PlayStation, with early access on July 23 for Premium/Collector buyers - a major cross-platform event worth pre-order promotion."
+    },
+    {
+      "title": "Call of Duty: Black Ops 6 standalone shift",
+      "date": "2026-07-07",
+      "platforms": "PS5, Xbox, PC",
+      "why_it_matters": "Black Ops 6 became a standalone download separate from the Call of Duty HQ launcher on July 7, refreshing interest in the CoD ecosystem right before Halo and other big July releases."
     }
   ],
   "streamer_trends": [
     {
       "streamer": "Kai Cenat",
-      "platform": "Twitch & YouTube (simultaneous)",
-      "playing": "Comeback broadcast + Streamer University 2026 reveal",
-      "why_it_matters": "<cite index=\"34-1,34-6\">Kai Cenat's comeback stream peaked at roughly 708,000 concurrent viewers on Twitch and over 400,000 on YouTube, surpassing one million combined live viewers</cite> — a massive spike in gaming/streaming attention that loot.tn can ride with timely social content."
+      "platform": "Twitch & YouTube (simulcast)",
+      "playing": "Returned from a 9-month hiatus on July 6 to relaunch 'Streamer University 2', simulcasting for the first time on both Twitch and YouTube",
+      "why_it_matters": "One of the biggest streamers in the world coming back online is a major traffic event; his audience overlaps heavily with subscription/gift-card buyers (Twitch, Prime Gaming, streaming bundles)."
     },
     {
-      "streamer": "xQc",
-      "platform": "Twitch / Kick",
-      "playing": "Just Chatting, Counter-Strike 2, VALORANT",
-      "why_it_matters": "<cite index=\"24-1,24-5\">xQc usually streams Just Chatting, Counter-Strike 2, VALORANT</cite>, keeping Steam-based competitive shooters trending — good tie-in for Steam wallet codes."
+      "streamer": "Twitch overall (aggregate)",
+      "platform": "Twitch",
+      "playing": "VALORANT viewership surged, up sharply week-over-week, while GTA V, Counter-Strike, and League of Legends remain top watched categories",
+      "why_it_matters": "Spiking VALORANT and sustained CS viewership signal strong demand for Riot Points/Valorant-related currency and Steam wallet codes among the core gaming audience loot.tn targets."
     },
     {
-      "streamer": "Ghaith Ouerdiane Bacha (Dahma-adjacent Tunisian scene)",
-      "platform": "Kick",
-      "playing": "FIFA/EA Sports FC content",
-      "why_it_matters": "<cite index=\"53-1,53-2\">A Tunisian streamer active on Kick is known for his gaming sessions on FIFA while also working as a radio host and football commentator</cite>, directly relevant to promoting FC 26 points/accounts to the local Tunisian audience."
-    },
-    {
-      "streamer": "Global creator community (GTA 6 reactions)",
-      "platform": "Twitch/YouTube/Kick multi-streamer",
-      "playing": "GTA 6 trailer/pre-order reaction content",
-      "why_it_matters": "<cite index=\"42-31\">GTA 6's second trailer pulled in over 60 million views in its first 24 hours</cite>, meaning countless streamers across platforms are reacting to and discussing it right now, keeping GTA6 pre-order interest extremely high."
+      "streamer": "Various FPS-focused creators",
+      "platform": "Twitch/YouTube",
+      "playing": "Battlefield 6 vs Call of Duty: Black Ops 7 rivalry content",
+      "why_it_matters": "Battlefield 6 briefly went free-to-play June 30-July 6 alongside a major update, while Black Ops 7 has been swinging back and forth with Battlefield 6 in the sales/console charts, keeping both shooters in constant creator content and giving loot.tn a reason to bundle-promote both games' keys/currency simultaneously."
     }
   ],
   "recommendations": [
     {
       "priority": "high",
-      "action": "Launch a 'GTA 6 Ready' bundle: PSN/Xbox wallet top-up cards paired with GTA+ style messaging, marketed now through November.",
-      "reason": "GTA6 pre-orders are already live with a Nov 19 launch and a pre-order bonus tied to purchasing before Nov 20, so demand for PSN/Xbox wallet funds to pre-order will build steadily for months."
+      "action": "Launch a 'PSN Wallet + July Savings' bundle promo, pairing discounted PSN gift card denominations with a curated list of games currently discounted in Sony's July Savings sale (live through ~July 15-16).",
+      "reason": "The PlayStation Store's July Savings Sale is live right now with thousands of discounted titles, and shoppers need PSN credit to redeem regional deals."
     },
     {
       "priority": "high",
-      "action": "Push EA Sports FC 26 Ultimate Team points and account listings hard right now, referencing the Phenoms Team 1 drop and the Pelé ICON Festival of Football event (ends July 24).",
-      "reason": "FC 26's live promos (Phenoms, Summer Stars, Pelé event) are driving daily FUT engagement and points spending through late July, and this resonates with Tunisia's strong FIFA/FC streaming culture."
+      "action": "Feature a 'Shooter Showdown' promo bundling Battlefield 6 and Call of Duty: Black Ops 7 keys/currency together with a small discount.",
+      "reason": "The two franchises are locked in an ongoing sales/viewership rivalry that keeps both games in constant streamer and news coverage, driving comparison-shopping behavior."
+    },
+    {
+      "priority": "high",
+      "action": "Put up a pre-order/early-access spotlight for Halo: Campaign Evolved (releasing July 27, with Premium/Collector early access from July 23) targeting PS5 owners specifically.",
+      "reason": "This is the first Halo game ever released on PlayStation, a landmark cross-platform event that will draw first-time buyers unfamiliar with where to get keys or currency."
     },
     {
       "priority": "medium",
-      "action": "Run a 48-hour 'Last Chance' banner for PSN wallet codes tied to the PS Store's ongoing sale of 250+ PS5 games at lowest-ever prices.",
-      "reason": "The PlayStation sale window closes around July 15, giving a natural urgency deadline to convert wallet-code sales this week."
+      "action": "Push freshly-launched titles like Assassin's Creed: Black Flag Resynced and EA Sports College Football 27 on the homepage with 'just released' badges and any available key discounts.",
+      "reason": "Both launched July 9 and are currently peak-interest titles per major release-schedule trackers."
     },
     {
       "priority": "medium",
-      "action": "Feature Xbox Game Pass Ultimate keys around Halo: Campaign Evolved's July 23 early access and July 28 launch, plus cross-promote Palworld 1.0 (July 10) as already included in Game Pass.",
-      "reason": "Two high-profile Game Pass tie-ins land within days of each other, making this a strong window to sell subscription keys before/at launch."
+      "action": "Run a Twitch/Prime Gaming subscription gift card promo timed to Kai Cenat's high-profile return to streaming and the 'Streamer University 2' launch.",
+      "reason": "His comeback broadcast on July 6 marked a major re-engagement event for one of the largest global streaming audiences, a natural hook for subscription-product upsells."
+    },
+    {
+      "priority": "medium",
+      "action": "Add a Riot/Valorant currency and CS-related Steam wallet promo tile, since VALORANT viewership is spiking sharply on Twitch this week alongside sustained Counter-Strike and GTA V popularity.",
+      "reason": "These are consistently among the top-watched categories, indicating strong active-player demand for related in-game currency/wallet top-ups."
     },
     {
       "priority": "low",
-      "action": "Capitalize on the Kai Cenat comeback buzz with a short social post bundling streaming/subscription products (e.g., YouTube Premium, Discord Nitro) alongside game keys.",
-      "reason": "The record-breaking comeback stream renewed massive mainstream attention on streaming culture this week, offering a soft-sell opportunity for adjacent subscription products loot.tn carries."
+      "action": "Prepare marketing assets now for the next PlayStation Summer Sale (expected mid-to-late July) and start teasing 'coming soon' deals.",
+      "reason": "Sony's official Summer Sale window is still pending confirmation but historically lands in this exact period, so early positioning avoids missing the traffic spike."
     }
   ],
-  "site_notes": "The homepage snapshot returned only a 'Payment required / DEPLOYMENT_DISABLED' error string instead of real content — this looks like the storefront or its CDN/deployment is currently down or misconfigured and should be checked urgently, since none of today's promotions can run if the site itself isn't rendering."
+  "site_notes": "The provided homepage snapshot did not return actual page content — it shows only a 'Payment required / DEPLOYMENT_DISABLED' placeholder string, suggesting the site or its hosting/deployment may currently be down or misconfigured; this should be checked/escalated urgently since a non-functional storefront would block all of the above promotions from being executed."
 }
